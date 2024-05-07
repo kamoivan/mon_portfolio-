@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+.main-body {
+    margin: 10px;
+}
+section {
+    text-align: center;
+}
+footer {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.img1 {
+    width: 100px;
+    height: 100px;
+}
+.contenair {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5Px;
+}
+.item1 {
+    border: 5px solid red;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+.item2 {
+    border: 5px solid blue;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+.item3 {
+    border: 5px solid yellow;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+.item4 {
+    border: 5px solid rgb(166, 40, 238);
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
+}
+.item5 {
+    border: 5px solid black;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    
+}
+.item6 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    
+}
+.item7 {
+    border: 5px solid rgb(0, 136, 255);
+    grid-column: 3/4; 
+    grid-row: 3/4;
+}
+.moi {
+   text-align: center;
+}
